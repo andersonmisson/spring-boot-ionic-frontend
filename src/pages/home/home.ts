@@ -12,4 +12,10 @@ export class HomePage {
 
   }
 
+  public login(){
+    // .push ele empilha as paginas, .setRoot não deixa voltar para tela login
+    this.navCtrl.setRoot('CategoriasPage');
+
+  }
+
 }
