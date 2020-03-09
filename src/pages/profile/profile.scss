@@ -1,3 +1,8 @@
-page-profile {
+page-profile { // padrão CSS para encaixar a foto no perfil
+    .circle{
+        width: 60%;
+        border-radius: 100%;
+        margin: 25px auto 0 auto;
+    }
 
 }
