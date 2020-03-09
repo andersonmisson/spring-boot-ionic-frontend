@@ -30,7 +30,7 @@ export class HomePage {
     this.menu.swipeEnable(true);
   }
 
-  ionViewDidEnter() {
+  ionViewDidEnter() { //
     this.auth.refreshToken()
       .subscribe(response => {
         this.auth.successfulLogin(response.headers.get('Authorization'));
@@ -49,7 +49,10 @@ export class HomePage {
     
     // .push ele empilha as paginas, .setRoot não deixa voltar para tela login
     
+  }
 
+  signup() {
+    this.navCtrl.push('SignupPage');
   }
 
 }
