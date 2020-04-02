@@ -3,6 +3,7 @@ import { IonicPageModule } from 'ionic-angular';
 import { ProfilePage } from './profile';
 import { Camera } from '@ionic-native/camera';
 
+
 @NgModule({
   declarations: [
     ProfilePage,
